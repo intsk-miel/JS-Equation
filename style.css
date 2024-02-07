@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+  
+input[type="number"] {
+    padding: 8px;
+    margin: 5px;
+    width: 100px;
+    font-size: larger;
+}
+  
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #9b07f1;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+  
+button[type="submit"]:hover {
+    background-color: #4400ff;
+}
+  
+#result {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+  
